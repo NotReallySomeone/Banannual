@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className="portfolio-content">
           <div className="section-t text-center">
             <h3>Our Portfolio</h3>
-            <p className="text">Bullshit text placeholder</p>
+            <p className="text">Inside Bannanual staff</p>
           </div>
 
           <div className="item-list text-center text-white grid">

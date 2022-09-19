@@ -20,13 +20,13 @@ const services = [
     id: 1,
     icon: <FaPaperPlane style={{ fill: gradient }} />,
     title: 'Digital Marketing',
-    text: 'Bullshit text placeholder'
+    text: 'Advertisements with high number of traffic is included, even in the Starter Pack, traffic to your website will be ensured through the method know as SPAMMING.'
   },
   {
     id: 2,
     icon: <BiDollarCircle style={{ fill: gradient }} />,
     title: 'Trade Shows',
-    text: 'Bullshit text placeholder'
+    text: 'Code embbeding is easier with the embbeding provided, the products you sell are displayed together with similiar stores in the first pages of search engines.'
   },
   {
     id: 3,
@@ -38,26 +38,26 @@ const services = [
     id: 4,
     icon: <FaEdit style={{ fill: gradient }} />,
     title: 'Content Creation',
-    text: 'Bullshit text placeholder'
+    text: 'Not sure about what exactly you want in your website? Choose from thousand of website templates, from Basic to the Deluxe package.'
   },
   {
     id: 5,
     icon: <ImMagicWand style={{ fill: gradient }} />,
     title: 'Grpahic Design',
-    text: 'Bullshit text placeholder'
+    text: 'Our dev make sure your project looks the same in all devices, both from potato-mode and eyecandy.'
   },
   {
     id: 6,
     icon: <FaShoppingCart style={{ fill: gradient }} />,
     title: 'Media Buying',
-    text: 'Bullshit text placeholder'
+    text: "You don't have to start from strach, low price BOTS are available."
   }
 ]
 
 const about = [
   {
     id: 7,
-    text: 'Bullshit text placeholder'
+    text: 'Constant upgrade and research with the lastest codes to ensure that your website will need very few manuctention over time.'
   }
 ]
 
@@ -66,13 +66,13 @@ const qualities = [
     id: 8,
     icon: <FaFileAlt style={{ fill: gradient }} />,
     title: 'Ideas & Plans',
-    text: 'Bullshit text placeholder'
+    text: 'Cryptocoins and bananas are now accepted as payment methods.'
   },
   {
     id: 9,
     icon: <AiOutlineReload style={{ fill: gradient }} />,
     title: 'Prompt Strategies',
-    text: 'Bullshit text placeholder'
+    text: 'With the current nature friendly methods, it is scheduled to ensure that our food comes from renewable sources, such as road-kill meat.'
   }
 ]
 
@@ -147,14 +147,14 @@ const testimonials = [
   },
   {
     id: 21,
-    name: 'Andrew Bill',
+    name: 'Otto Hawk',
     text: 'Bullshit text placeholder',
     image: images.customer_img_3,
     rating: 2
   },
   {
     id: 22,
-    name: 'Jason Stawer',
+    name: 'Chris P. Bacon',
     text: 'Bullshit text placeholder',
     image: images.customer_img_4,
     rating: 4
@@ -168,7 +168,7 @@ const testimonials = [
   },
   {
     id: 24,
-    name: 'Anna Doe',
+    name: 'Cheeseburger',
     text: 'Bullshit text placeholder',
     image: images.customer_img_6,
     rating: 4
@@ -185,13 +185,13 @@ const contact = [
   {
     id: 26,
     icon: <FaEnvelopeOpen style={{ fill: gradient }} />,
-    info: 'solnhub@info.com',
+    info: 'Bannanual@info.com',
     text: 'Bullshit text placeholder'
   },
   {
     id: 27,
     icon: <FaMapMarkerAlt style={{ fill: gradient }} />,
-    info: 'United Kingdom, New Street',
+    info: 'Where the heck am I?, Sea',
     text: 'Bullshit text placeholder'
   }
 ]

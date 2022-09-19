@@ -11,7 +11,10 @@ const Qualities = () => {
           <div className="content-left">
             <div className="section-t text-center">
               <h3>We are Professionals</h3>
-              <p className="text">Bullshit text placeholder</p>
+              <p className="text">
+                Constant upgrade and research with lastest syntax to ensure that
+                your website will need very few manuctention over time.
+              </p>
             </div>
 
             <div className="item-list grid text-white">

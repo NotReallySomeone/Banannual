@@ -15,11 +15,10 @@ const About = () => {
               <h3>About Us</h3>
             </div>
             <p className="text">
-              Banannual is available in multiple languages, and has
-              professionals working with multiple high-end machines 24/7, for a
-              flexible price.
+              Bannanual has multi-languages support, with professionals working
+              at multiple high-end machine simultaneusly.
             </p>
-            <p className="text">BanAnnual is around since internet was born.</p>
+            <p className="text">Banannual is around since internet was born.</p>
           </div>
         </div>
       </div>

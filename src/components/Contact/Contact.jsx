@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="contact-left">
             <div className="section-t">
               <h3>Let's Talk?</h3>
-              <p className="text"> Bullshit text placeholder</p>
+              <p className="text"> Beep boop</p>
             </div>
 
             <Formik
