@@ -38,13 +38,13 @@ const services = [
     id: 4,
     icon: <FaEdit style={{ fill: gradient }} />,
     title: 'Content Creation',
-    text: 'Not sure about what exactly you want in your website? Choose from thousand of website templates, from Basic to the Deluxe package.'
+    text: 'Not sure about what exactly you want in your website? Choose from thousands of website templates, from Basic to the Deluxe package.'
   },
   {
     id: 5,
     icon: <ImMagicWand style={{ fill: gradient }} />,
-    title: 'Grpahic Design',
-    text: 'Our dev make sure your project looks the same in all devices, both from potato-mode and eyecandy.'
+    title: 'Graphic Design',
+    text: 'The developers make sure your project looks the same in all devices, both from potato-mode and eyecandy.'
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const services = [
 const about = [
   {
     id: 7,
-    text: 'Constant upgrade and research with the lastest codes to ensure that your website will need very few manuctention over time.'
+    text: ' The grades system provides Banannual with lastest syntax to ensure that your website will have the most recent syntax available, through providing educational support staff members, so your aplication needs very few maintenance over time.'
   }
 ]
 
@@ -69,10 +69,10 @@ const qualities = [
     text: 'Cryptocoins and bananas are now accepted as payment methods.'
   },
   {
-    id: 9,
+    id: 9, 
     icon: <AiOutlineReload style={{ fill: gradient }} />,
     title: 'Prompt Strategies',
-    text: 'With the current nature friendly methods, it is scheduled to ensure that our food comes from renewable sources, such as road-kill meat.'
+    text: 'With the growing nature-friendly actions, now is possible to support new projects that would help mankind. Banannual is supporting physics engineering, so they can send rockets to Mars to bring us back some much needed bag of rocks, dirt and sand.'
   }
 ]
 
