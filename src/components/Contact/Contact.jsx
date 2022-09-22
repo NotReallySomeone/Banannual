@@ -66,6 +66,7 @@ const Contact = () => {
                       onBlur={handleBlur}
                       value={values.name}
                       className="form-control"
+                      placeholder="Name"
                     />
                     <span className="form-control-text">
                       {errors.name && touched.name && errors.name}
@@ -80,6 +81,7 @@ const Contact = () => {
                       onBlur={handleBlur}
                       value={values.email}
                       className="form-control"
+                      placeholder="E-mail"
                     />
                     <span className="form-control-text">
                       {errors.email && touched.email && errors.email}
@@ -94,6 +96,7 @@ const Contact = () => {
                       onBlur={handleBlur}
                       value={values.address}
                       className="form-control"
+                      placeholder="Address"
                     />
                     <span className="form-control-text">
                       {errors.address && touched.address && errors.address}
