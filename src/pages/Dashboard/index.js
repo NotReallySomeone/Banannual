@@ -1,7 +1,5 @@
 export default function Dashboard(){
     return(
-<>
-    Does it work?
-</>
+       <div>Where the heck am I?</div>
     )
 }

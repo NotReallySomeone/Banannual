@@ -4,7 +4,7 @@ import App from './App'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // Pages
 import Dashboard from './pages/Dashboard'
-import Login from './pages/Dashboard'
+import Login from './pages/Login'
 import NoPage from './pages/Nopage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

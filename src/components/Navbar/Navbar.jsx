@@ -5,11 +5,11 @@ import { FaTwitter, FaSkype, FaVimeoV } from 'react-icons/fa'
 import { IoMdRocket } from 'react-icons/io'
 
 const Navbar = () => {
+
   const [navToggle, setNavToggle] = useState(false)
   const navHandler = () => {
-    setNavToggle(prevData => !prevData)
+    setNavToggle(prevData => !prevData)  
   }
-
   return (
     <nav className="navbar w-100 flex">
       <div className="container w-100">
@@ -68,11 +68,11 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="navbar-btns">
+              <Link to="/Login" className="navbar-btns">
                 <button type="button" className="btn">
-                  <IoMdRocket /> <span>get started</span>
+                  <IoMdRocket /> <span  >get started</span>
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
