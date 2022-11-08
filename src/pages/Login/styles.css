@@ -4,9 +4,13 @@ body {
 }
 
 .lg {
-    border: 2rem solid black;
+    border: 0.1rem solid black;
+    border-color: gray;
     border-radius: 5px;
     width: 32rem;
     height: 40rem;
     background: rgba(255, 255, 255, 0.642);
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
 }
