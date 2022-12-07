@@ -7,10 +7,24 @@ body {
     border: 0.1rem solid black;
     border-color: gray;
     border-radius: 5px;
-    width: 32rem;
-    height: 40rem;
-    background: rgba(255, 255, 255, 0.642);
+    width: 42rem;
+    height: 50rem;
+    background: rgba(255, 255, 255, 0.467);
     display: block;
     padding: 1rem;
     margin: 1rem;
+}
+
+input
+{
+    width: 30rem;
+    height: 4rem;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+}
+
+::placeholder {
+    font-size: 2rem;
+    padding-left: 2.5rem;
+
 }

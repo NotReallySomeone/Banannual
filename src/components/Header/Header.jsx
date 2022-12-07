@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content text-center flex flex-column">
           <h1 className="text-uppercase header-title">
-            suppa webdev corp
+            super webdev corp
           </h1>
           <p className="text-lead">
             Extremely well trained team, composed of humans and high inteligent
