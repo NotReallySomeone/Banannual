@@ -1,8 +1,7 @@
-export default function Btn(){
-return(
-    <>
-    <button> </button>
-</>
-
+export function Bttn(){
+return(  
+    <>   
+    <button className="Btun"> </button>
+    </>
 )
 }

@@ -28,3 +28,10 @@ input
     padding-left: 2.5rem;
 
 }
+
+.Btun {
+    background-color: white;
+    border-radius: 3rem;
+    width: 18rem;
+    height: 3rem;
+}

@@ -1,5 +1,5 @@
 import './styles.css'
-import Btn from '../../components/Button'
+import {Bttn} from '../../components/Button'
 
 
 export default function Login(){
@@ -18,7 +18,7 @@ export default function Login(){
 
              <a> - Forgot password?</a>
 
-             <Btn />
+             <Bttn  />
 
          </div>
          
