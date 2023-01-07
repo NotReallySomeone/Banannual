@@ -10,7 +10,7 @@ export function Bttn(){
 
 return(  
     <>   
-    <button className="Btun" onClick={handleClick} > </button>
+    <button className="Btun" onClick={handleClick}> </button>
     </>
 )
 }

@@ -1,18 +1,24 @@
 body {
-     background: linear-gradient(117.82deg, #fff45f 2.65%, #ffe100 98.16%);
-
-}
+    height: 100vh;
+    background: url("../../assets/images/Brandnewlaptop.jpg") no-repeat; 
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    background-position: center;
+  }
 
 .lg {
     border: 0.1rem solid black;
     border-color: gray;
     border-radius: 5px;
-    width: 42rem;
-    height: 50rem;
-    background: rgba(255, 255, 255, 0.467);
-    display: block;
-    padding: 1rem;
-    margin: 1rem;
+    width: 30rem;
+    height: 50vh;
+    background:  rgba(255, 255, 255, 0.467) ;
+    display: flex, inline;
+    padding: auto;
+    margin: auto;
+    text-align: left;
+    
+    
 }
 
 input
@@ -34,4 +40,8 @@ input
     border-radius: 3rem;
     width: 18rem;
     height: 3rem;
+}
+
+.Fakelink {
+    color:blue;
 }

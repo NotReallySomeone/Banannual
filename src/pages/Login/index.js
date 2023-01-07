@@ -5,27 +5,24 @@ import {Bttn} from '../../components/Button'
  
 export default function Login(){
 
-  
-   
 return(      
          <div className="lg">
              <a> Login to your account</a>
 
              <a> To enjoy all of our features</a>       
-
+<br/>
              <a> We would never share your data with anyone (¬‿¬) </a>
-
+<br/>
              <input placeholder="Email address" />
 
              <input placeholder="Password" /> 
-                 
-             <a> - Need an account? </a>
+                 <br/>
+             <a className="Fakelink" title=" Your information it's safe with us, just click login to enter"> - Need an account? </a>
 
              <a> - Forgot password?</a>
-  
+  <br/>
              <Bttn   />
-         </div>
-         
+         </div>       
     )
 }
 
