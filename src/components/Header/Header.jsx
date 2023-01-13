@@ -2,8 +2,10 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
 import { FaPaperPlane } from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
+   
   return (
     <header className="header flex flex-center flex-column">
       <Navbar />
@@ -18,8 +20,8 @@ const Header = () => {
             awarded consecutively the 'Most nature preservation' prize since
             1371.
           </p>
-          <a href="/" className="btn header-btn btn-blue">
-            <FaPaperPlane /> <span>get started</span>
+          <a href="/Login" className="btn header-btn btn-blue">
+            <FaPaperPlane /> <span >get started</span>
           </a>
         </div>
       </div>

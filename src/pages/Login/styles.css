@@ -1,9 +1,9 @@
 body {
     height: 100vh;
-    background: url("../../assets/images/Brandnewlaptop.jpg") no-repeat; 
-    background-size: cover;
-    backdrop-filter: blur(5px);
+    background-image: url("../../assets/images/Brandnewlaptop.jpg"); 
+    background-size: cover; 
     background-position: center;
+    background-repeat: no-repeat;
   }
 
 .lg {
@@ -12,13 +12,11 @@ body {
     border-radius: 5px;
     width: 30rem;
     height: 50vh;
-    background:  rgba(255, 255, 255, 0.467) ;
+    background-color:  rgba(255, 255, 255, 0.467) ;
     display: flex, inline;
     padding: auto;
     margin: auto;
     text-align: left;
-    
-    
 }
 
 input
@@ -32,7 +30,6 @@ input
 ::placeholder {
     font-size: 2rem;
     padding-left: 2.5rem;
-
 }
 
 .Btun {
