@@ -1,44 +1,54 @@
-body {
-    height: 100vh;
-    background-image: url("../../assets/images/Brandnewlaptop.jpg"); 
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-.lg {
-    border: 0.1rem solid black;
-    border-color: gray;
-    border-radius: 5px;
-    width: 30rem;
-    height: 50vh;
-    background-color:  rgba(255, 255, 255, 0.467) ;
-    display: flex, inline;
-    padding: auto;
-    margin: auto;
-    text-align: left;
+.acc {
+  color: rgb(22, 22, 238);
 }
 
-input
-{
-    width: 30rem;
-    height: 4rem;
-    border-radius: 20px;
-    margin-bottom: 0.5rem;
+.acc:hover {
+  background-color: white;
+}
+
+.gblg {
+  height: 100vh;
+  background-image: url('../../assets/images/Brandnewlaptop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lg {
+  border: 0.1rem solid black;
+  border-color: gray;
+  border-radius: 4rem;
+  width: 40rem;
+  height: 55rem;
+  background-color: rgba(255, 255, 255, 0.467);
+  display: flex, inline;
+  padding: auto;
+  margin: 10rem 20rem 29rem 40rem;
+  text-align: left;
+  position: absolute;
+  font-size: 3rem;
+  padding: 4rem;
+}
+
+input {
+  width: 30rem;
+  height: 4rem;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
 }
 
 ::placeholder {
-    font-size: 2rem;
-    padding-left: 2.5rem;
+  font-size: 2rem;
+  padding-left: 2.5rem;
 }
 
 .Btun {
-    background-color: white;
-    border-radius: 3rem;
-    width: 18rem;
-    height: 3rem;
+  background-color: white;
+  border-radius: 3rem;
+  width: 18rem;
+  height: 3rem;
 }
 
 .Fakelink {
-    color:blue;
+  color: blue;
 }

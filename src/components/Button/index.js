@@ -1,16 +1,20 @@
 import { useNavigate } from 'react-router-dom'
 import styles from './styles.css'
 
-export function Bttn(){
-    const navigate = useNavigate()
+export function Bttn() {
+  const navigate = useNavigate()
 
-    function handleClick() {
-      navigate("/Dashboard")
+  function handleClick() {
+    navigate('/Dashboard')
   }
 
-return(  
-    <>   
-    <button className="Btun" onClick={handleClick}> Login</button>
+  return (
+    <>
+      <button
+        className='Btun'
+        onClick={handleClick}>
+        Login
+      </button>
     </>
-)
+  )
 }
