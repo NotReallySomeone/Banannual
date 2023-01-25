@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+.recovering {
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.recover {
+  display: block;
+  font-size: 2rem;
+  color: blue;
+  padding: 0.1px 4rem 1px 1rem;
+}
+
 input {
   background-color: rgba(70, 63, 63, 0.664);
   color: White;
@@ -15,11 +26,12 @@ input {
 }
 
 .lg {
+  padding: 4rem 6rem 5rem 4rem;
   border: 0.1rem solid black;
   border-color: gray;
   border-radius: 2rem;
   width: 40rem;
-  height: 55rem;
+  height: 67rem;
   background-color: rgba(255, 255, 255, 0.467);
   display: flex, inline;
   padding: auto;
@@ -27,7 +39,6 @@ input {
   text-align: left;
   position: absolute;
   font-size: 3rem;
-  padding: 4rem;
 }
 
 input {

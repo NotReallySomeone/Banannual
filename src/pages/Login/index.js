@@ -17,22 +17,23 @@ export default function Login() {
       <div className='gblg'>
         <div className='lg'>
           <a> Login to your account, to enjoy all the features</a>
-          <br />
           <input placeholder='Email address' />
           <input placeholder='Password' />
-          <br />
           <Bttn btntxt={'Login'} />
-          <br />
           <div>
             <Bttn
               onClick={handleClick}
               btntxt={'Register'}
             />
           </div>
-          <br />
-          <a> - Forgot password?</a>
+          <div className='recovering'>
+            <a className='recover'> - Forgot password?</a>
+            <a className='recover'> - Forgot e-mail?</a>
+            <a className='recover'> - Forgot where you parked your car?</a>
+          </div>
         </div>
       </div>
     </div> //Wraps navbar
   )
 }
+// Card crashed on parked text
