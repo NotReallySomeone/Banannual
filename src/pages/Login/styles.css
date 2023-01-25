@@ -1,12 +1,12 @@
-.acc {
-  color: rgb(22, 22, 238);
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.acc:hover {
-  background-color: white;
+input {
+  background-color: rgba(70, 63, 63, 0.664);
+  color: White;
 }
 
 .gblg {
+  font-family: Roboto;
   height: 100vh;
   background-image: url('../../assets/images/Brandnewlaptop.jpg');
   background-size: cover;
@@ -17,7 +17,7 @@
 .lg {
   border: 0.1rem solid black;
   border-color: gray;
-  border-radius: 4rem;
+  border-radius: 2rem;
   width: 40rem;
   height: 55rem;
   background-color: rgba(255, 255, 255, 0.467);

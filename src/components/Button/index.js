@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import styles from './styles.css'
 
-export function Bttn() {
+export default function Bttn(props) {
   const navigate = useNavigate()
 
   function handleClick() {
@@ -9,12 +9,10 @@ export function Bttn() {
   }
 
   return (
-    <>
-      <button
-        className='Btun'
-        onClick={handleClick}>
-        Login
-      </button>
-    </>
+    <button
+      className='Btun'
+      onClick={handleClick}>
+      {props.btntxt}
+    </button>
   )
 }
