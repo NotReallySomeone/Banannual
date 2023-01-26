@@ -11,6 +11,10 @@ export default function Login() {
     navigate('/Dashboard')
   }
 
+  function handleClick2() {
+    navigate('/Whereismycar')
+  }
+
   return (
     <div>
       <Navbar />
@@ -29,7 +33,11 @@ export default function Login() {
           <div className='recovering'>
             <a className='recover'> - Forgot password?</a>
             <a className='recover'> - Forgot e-mail?</a>
-            <a className='recover'> - Forgot where you parked your car?</a>
+            <a
+              className='recover'
+              onClick={handleClick2}>
+              - Forgot where you parked your car?
+            </a>
           </div>
         </div>
       </div>
